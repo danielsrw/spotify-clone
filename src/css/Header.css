@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.header__left {
+    flex: 0.4;
+    min-width: 100px;
+    background-color: white;
+    color: gray;
+    border-radius: 30px;
+    height: 15px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.header__left > input {
+    border: none;
+    background: transparent;
+    font-family: Poppins;
+    width: 100%;
+    outline: none;
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+}
+
+.header__right > img {
+    height: 40px;
+    border-radius: 50%;
+}
+
+.header__right > h4 {
+    margin-left: 10px;
+    font-size: small;
+}
